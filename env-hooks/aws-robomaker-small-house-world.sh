@@ -1,0 +1,1 @@
+export GAZEBO_MODEL_PATH=$(rospack find aws_robomaker_small_house_world)/models:${GAZEBO_MODEL_PATH}
