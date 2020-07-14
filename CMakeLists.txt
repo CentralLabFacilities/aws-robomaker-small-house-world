@@ -3,8 +3,6 @@ project(aws_robomaker_small_house_world)
 
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros
-  turtlebot3_description
-  turtlebot3_navigation  # required for copy of .rviz file
 )
 
 catkin_package()
